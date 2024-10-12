@@ -1,0 +1,112 @@
+h1{
+    color: rgb(77, 124, 126);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    margin: 0px;
+}
+
+img{
+    width: 12%;
+}
+
+img:hover{
+    cursor: pointer;
+}
+
+body{
+    background-color:antiquewhite;
+    background-size: cover;
+}
+
+nav{
+    background-color: rgb(77, 124, 126);
+    overflow: hidden;
+    margin-left: 14.5%;
+    position:absolute;
+    top: 50px;
+    left: 0;
+    right: 100px;;
+}
+
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content:space-between;
+}
+
+nav li{
+    float: left;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav li a{
+    color: antiquewhite;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+} 
+
+nav li a:hover{
+    background-color: #111;
+}
+
+div p{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(77, 124, 126);
+    margin-top: 30px;
+    text-align: center;
+    text-size-adjust: 1.2;
+}
+
+.dos{
+    text-align:start;
+}
+
+p{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 15px;
+    
+}
+
+#uno {
+    margin-left: 43%;
+}
+#dos {
+    margin-left: 43%;
+}
+
+h2{
+    font-family:'Courier New', Courier, monospace;
+    color: rgb(77, 124, 126);
+    text-align: center;
+}
+
+footer{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(77, 124, 126);
+    text-align: center;
+}
+
+.vinilos{
+    display: flex;
+    justify-content: space-around;
+    bottom: 40px;
+}
+
+.vinilos div img{
+    width: 100%;
+    height: auto;
+    margin: 10px;
+}
+
+@media(max-width: 768px){
+    .vinilos{
+        flex-direction: column;
+    }
+}

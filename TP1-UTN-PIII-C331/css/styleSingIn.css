@@ -1,0 +1,115 @@
+h1{
+    color: rgb(77, 124, 126);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    margin: 0px;
+}
+
+img{
+    width: 12%;
+}
+img:hover{
+    cursor: pointer;
+}
+
+body{
+    background-color:antiquewhite;
+    background-size: cover;
+}
+
+nav{
+    background-color: rgb(77, 124, 126);
+    overflow: hidden;
+    margin-left: 14.5%;
+    position:absolute;
+    top: 50px;
+    left: 0;
+    right: 100px;;
+}
+
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content:space-between;
+}
+
+nav li{
+    float: left;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav li a{
+    color: antiquewhite;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+} 
+
+nav li a:hover{
+    background-color: #111;
+}
+
+p{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 15px;
+}
+
+#uno {
+    margin-left: 43%;
+}
+#dos {
+    margin-left: 43%;
+}
+
+label span {
+    margin-left: 1%;  
+}
+
+label{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(77, 124, 126);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    line-height: 1.5; 
+    margin-left: 43%;
+    
+}
+
+.checkbox{
+    margin-left: 42.3%;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 200px;
+    margin-left: 43%;
+}
+
+input[type="submit"] {
+    background-color: rgb(77, 124, 126);
+    color: antiquewhite;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 43%;
+}
+
+
+@media(max-width: 768px){
+    body{
+        flex-direction: column;
+        align-items: center;
+    }
+}
